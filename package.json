@@ -1,0 +1,30 @@
+{
+  "name": "decorators",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@types/koa": "^2.0.46",
+    "@types/koa-bodyparser": "^5.0.1",
+    "@types/koa-router": "^7.0.30",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^7.4.0",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.18.3",
+    "reflect-metadata": "^0.1.12",
+    "routing-controllers": "^0.7.7",
+    "typeorm": "^0.2.7",
+    "typescript": "^2.9.2"
+  },
+  "devDependencies": {
+    "ts-node": "^7.0.0"
+  },
+  "scripts": {
+    "watch": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/App.ts",
+    "compile": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
